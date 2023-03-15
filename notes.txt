@@ -1,0 +1,64 @@
+Git tags
+________
+
+git tags are pointer to a commit
+it display the author, message , and the date in which the commit has been created
+
+code
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (new_branch)
+$ git checkout master
+Switched to branch 'master'
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (master)
+$ git tag my-first-tag
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (master)
+$ git tag -a v1.0 -m "Version 1.0 of my blog"
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (master)
+$ git show v1.0
+tag v1.0
+Tagger: naaji-navas <najidnavas2000@gmail.com>
+Date:   Wed Mar 15 13:19:23 2023 +0530
+
+Version 1.0 of my blog
+
+commit 2357879adccf2832a75c1f0b280e1fe0c263dfb5 (HEAD -> master, tag: v1.0, tag: my-first-tag)
+Author: naaji-navas <najidnavas2000@gmail.com>
+Date:   Fri Mar 3 16:09:47 2023 +0530
+
+    this is the commit message
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (master)
+$ git show-ref --tags
+2357879adccf2832a75c1f0b280e1fe0c263dfb5 refs/tags/my-first-tag
+080230d38a8b2f7665a445d24ae3979abf72be7f refs/tags/v1.0
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (master)
+$ git tag
+my-first-tag
+v1.0
+
+najid@NAAJISDELL MINGW64 /d/PROJECTS/Learning/Git Advanced course (master)
+$ git show v1.0
+tag v1.0
+Tagger: naaji-navas <najidnavas2000@gmail.com>
+Date:   Wed Mar 15 13:19:23 2023 +0530
+
+Version 1.0 of my blog
+
+commit 2357879adccf2832a75c1f0b280e1fe0c263dfb5 (HEAD -> master, tag: v1.0, tag: my-first-tag)
+Author: naaji-navas <najidnavas2000@gmail.com>
+Date:   Fri Mar 3 16:09:47 2023 +0530
+
+    this is the commit message
+
+
+TO list all tags in the repo
+    git tag
+List all tags and the commit they're pointing to
+    git show-ref --tags
+List all the tags pointing at a commit
+    git tag --points-at <commit>
+Looking at the tag. or tagged contents
