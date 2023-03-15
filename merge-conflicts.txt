@@ -1,0 +1,4 @@
+Attempt to merge but files have diverged
+git stops until the confilcts are resolved
+
+Merge conflicts must be rosolved before the further merge
