@@ -1,0 +1,14 @@
+FIXING THE MISTAKES
+checkout
+reset
+revert
+clean
+
+What happens when you git checkout a branch?
+
+    1. HEAD is moved to the branch
+    2. Copy the commit snapshot to the staging area
+    3. Update the working are with the branch contents
+
+for overwrinting a particular file , we use git checkout -- filename
+ it will replace the working area with the version from the current staging area

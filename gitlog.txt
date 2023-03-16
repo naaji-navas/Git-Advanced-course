@@ -1,0 +1,1 @@
+a git log is the basic command which shows the history of the repository

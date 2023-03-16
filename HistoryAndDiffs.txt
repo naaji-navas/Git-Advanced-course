@@ -1,0 +1,29 @@
+Good commits are very important
+good commits help preserve the history of a code base.
+they help with:
+    debugging and troubleshooting
+    creating release notes
+    understanding the code base
+    code reviews
+    rolling back changes
+    associating the code with an  issue or a ticket
+
+Q: What is a good commit message?
+A: A good commit message is:
+    short
+    descriptive
+    written in the imperative mood
+    written in the present tense
+    written in the active voice
+    written in the third person
+    written in the past tense
+    written in the passive voice
+    written in the first person
+    written in the future tense
+    written in the second person
+
+commit message is in future tense.
+
+A descrioption of the current behaviour , a short summary of why the fix is needed . also mention the 
+side effects
+

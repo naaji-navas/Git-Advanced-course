@@ -2,3 +2,13 @@ Attempt to merge but files have diverged
 git stops until the confilcts are resolved
 
 Merge conflicts must be rosolved before the further merge
+
+
+
+Git Refere- REuse REcorded REsolution
+-------------------------------------
+git saves how we resolved a conflict
+next conflict : we can use the same REsolution
+
+ueful  for :
+long live feature branch
